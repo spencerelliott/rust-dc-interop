@@ -1,4 +1,4 @@
-# Dreamcast Rust/C Interop
+# Dreamcast Rust/C Interop Template
 
 This repository provides a very simple set up for using Rust code within
 an existing C project that can target both the Dreamcast and PC. This works
@@ -40,8 +40,6 @@ This will copy the default configuration for compiling GCC13. Next, change the f
 ```shell
 toolchains_base=/opt/toolchains/dc-gcc13
 pass2_languages=c,c++,objc,obj-c++,rust
-thread_model=single
-auto_fixup_sh4_newlib=0
 ```
 
 #### Preparing the required libraries and source code
